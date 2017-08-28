@@ -1,5 +1,6 @@
 package com.MrSheen.Christmas;
 
+import com.MrSheen.Christmas.item.ModItems;
 import com.MrSheen.Christmas.tab.CreativeChristmasTab;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -23,6 +24,8 @@ public class MrSheenChristmas {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         tabChristmas = new CreativeChristmasTab(CreativeTabs.getNextID(), "tab_Christmas");
+        ModItems.preInit();
+        ModItems.registerItems();
     }
 
     @EventHandler
