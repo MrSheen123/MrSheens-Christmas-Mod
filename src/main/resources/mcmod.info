@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
+  "modid": "mrsheenchristmas",
+  "name": "MrSheen's Christmas Mod",
   "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["MrSheen @ BIGBITE"],
+  "credits": "MrSheen @ BIGBITE",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
