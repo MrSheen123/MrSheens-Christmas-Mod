@@ -6,13 +6,15 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 @Mod(modid=Ref.MODID, version=Ref.VERSION, name=Ref.NAME)
 public class MrSheenChristmas {
     public static final String MODID = "mrsheenchristmas";
     public static final String VERSION = "1.0";
     public static final String NAME = "Mr Sheen's Christmas Mod";
 
-    @Mod.Instance
     public static MrSheenChristmas instance;
 
     @EventHandler

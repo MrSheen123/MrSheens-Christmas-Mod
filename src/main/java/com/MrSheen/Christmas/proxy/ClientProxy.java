@@ -1,12 +1,7 @@
 package com.MrSheen.Christmas.proxy;
 
-import com.MrSheen.Christmas.Ref;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.*;
-import com.MrSheen.Christmas.proxy.ClientProxy;
-import com.MrSheen.Christmas.proxy.CommonProxy;
 
-@SidedProxy(clientSide = Ref.CLIENT_PROXY, serverSide = Ref.COMMON_PROXY)
 public class ClientProxy extends CommonProxy {
 
     @Override

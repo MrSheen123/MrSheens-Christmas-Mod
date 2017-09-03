@@ -1,8 +1,5 @@
 package com.MrSheen.Christmas.proxy;
 
-import com.MrSheen.Christmas.Ref;
-import com.MrSheen.Christmas.item.ModItems;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.*;
 
 public class CommonProxy {
