@@ -1,5 +1,7 @@
 package com.MrSheen.Christmas.proxy;
 
+import com.MrSheen.Christmas.handlers.RegistryHandler;
+
 import net.minecraftforge.fml.common.event.*;
 
 public class ClientProxy extends CommonProxy {
@@ -12,6 +14,7 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void init(FMLInitializationEvent event) {
         super.init(event);
+        RegistryHandler.Client();
     }
 
     @Override
